@@ -44,6 +44,8 @@ header {
 .main {
 	background-color: #FFFFFF;
 	padding-top: 350px;
+	display: flex;
+	justify-content: center;
 }
 
 .sectionOne__green {
