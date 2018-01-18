@@ -48,6 +48,10 @@ header {
 	justify-content: center;
 }
 
+.padding {
+	padding: 10px;
+}
+
 .sectionOne__green {
 	background-color: #99ffcc;
 }
@@ -105,11 +109,7 @@ header {
 	font-size: 20px;
 }
 
-article {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
+
 
 
 
@@ -122,8 +122,8 @@ article {
 	.header__nav {width: 50%; flex-direction: row; justify-content: space-around;}
 
 	.main {padding-top: 180px;}
-	.sectionOne {display: flex; flex-direction: row; justify-content: space-around;}
-	.sectionTwo {display: flex; flex-direction: row; justify-content: space-around;}
-	/*.articleOne {display: flex; justify-content: space-around;}*/
+	.sectionOne {display: flex; flex-direction: row; justify-content: center;}
+	.sectionTwo {display: flex; flex-direction: row; justify-content: center;}
+	
 }
 
