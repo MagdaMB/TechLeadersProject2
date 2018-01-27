@@ -2,13 +2,127 @@
 <html>
 <head>
 	<title>Reservation</title>
-	<link href=".css" type="text/css" rel="stylesheet">
+	<link href="style/style-reservation.css" type="text/css" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-
+	
 </head>
 <body>
-	<h1>Reservation</h1>
+	<div class="container">
+			<header class="header" id="home">
+				<div class="header__logo">
+					<img src="images/logo.png">
+				</div>
+			
+				<nav class="header__nav">
+					<div><a href="index.html">home</a></div>
+					<div><a href="index_menu.html">menu</a></div>
+					<div><a href="index_reservation.html">reservation</a></div>
+					<div><a href="index_blog.html">blog</a></div>
+					<div><a href="index_contacts.html">contacts</a></div>
+				</nav>
+			</header>
+
+			<main class="main">
+				<section class="sectionOne">
+					<div class="sectionOne__div1--flex">
+						<div>
+							<h2>Reserve Your Table</h2>
+							<img src="images/page3_img1.jpg">
+						</div>
+
+						<div class="sectionOne__div1--margin">
+							<p><a href="">Vivamus at magna non nunc</a></p><br>
+							<p>Rehoncus. Aliquam nibh antegestas id ictum ado. Praesenterto faucibus maleada faucibusnec laeetert metus id laoreet</p><br>
+
+							<p>Nullam consectetur orci sed nulla facilisisequaterto. Curabitur vel lorem sit amet nulla perermentum. Aliquam nibh ante, egestas id dictum a, commodo luctus libero.</p><br>
+							<p>Praesent faucibus malesuada faucibus. Donecertolin laoreet metus id laoreet malesuada. orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div> 
+					</div>
+
+					<div class="sectionOne__div2">
+						<h2>Useful Information</h2>
+
+						<p><a href="">Hivamus at magna non nuncerto limonit nelowert sedrolino. Integer convallis orci vel miеter laoreet, at ornare lorem consequat. Phasellus erat nisl, auctor vel velit sed.</a></p><br>
+
+						<p>Nehoncus. Aliquam nibh antegestas id ictum ado. Praesenterto faucibus maleada faucibusnec laeet metus id laoreet rolito monert dertolimon.</p>
+
+						<p>Nullam consectetur orci sed nulla facilisisequat. Curabitur vel lorem sit amet nulla perermentum. Aliquam nibh ante, egestas id dictum a, commodo luctus libero.</p>
+
+						<p>Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequat. Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula.</p>
+
+						<button type="button" class="section__text--button">more</button>
+					</div>
+				</section>
+
+				<section class="sectionTwo">
+					<div>
+						<div class="sectionTwo__div1">
+							<h2>Our Hours</h2>
+							<p>We are open 7 days a week - 8 AM to 12 PM +1 101 889 9898</p>
+						</div>
+
+						<form class="form">
+							<input type="text" name="name" value="Name"><br>
+
+							<input type="email" name="email" value="Email: "><br>
+
+							<div class="form__grid">
+								<div>Check in:</div>
+								<div><input type="date" name="date"></div>
+							</div>
+
+							<div class="form__grid">
+								<div>Check out:</div>
+								<div><input type="date" name="date"></div>
+							</div>
+
+							<div class="form__text">
+								<div>Adults: 
+									<select>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+									</select>
+								</div>
+
+								<div>Children:
+									<select>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="sectionTwo__flex">
+								<div>
+									<textarea name="message" rows="10" cols="30"></textarea><br>
+								</div>
+
+								<div class="flex">
+									<button type="button" class="section__text--button">clear</button>
+									<button type="button" class="section__text--button">send</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</main>
+
+			<footer>
+				<div class="footer__text">
+					<p>Bliss © 2018<a href="#home" class="footer__text--">Privacy Policy</a></p>
+					<p>Website designed by <a href="#home">TemplateMonster.com</a></p>
+				</div>
+				<div class="footer__img">
+					<img src="images/twitter.png">
+					<img src="images/facebook-logo-button.png">
+					<img src="images/email-filled-closed-envelope.png">
+					<img src="images/instagram.png">
+				</div>
+			</footer>
+		</div>
 </body>
 </html>

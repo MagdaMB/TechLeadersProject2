@@ -52,37 +52,39 @@ header {
 	padding-bottom: 50px;
 }
 
-.section__flex {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.sectionOne {
+	width: 90%;
+	margin: 0 auto;
 }
 
-.section__block {
-	width: 368px;
-	height: 490px;
-	background-color: #C0C0C0;
-	color: #808080;
-	margin: 5px;
+.sectionOne__div1--margin {
+	margin: 15px 0 10px 0px;
 }
 
-.section__block--text {
-	margin: 15px;
-}
-
-.section__block--text h2 {
+.sectionOne h2 {
+	font-size: 30px;
+	color: #878787;
+	text-align: left;
 	margin-bottom: 10px;
+}
+
+.sectionOne p {
+	color: grey;
+	font-size: 15px;
+}
+
+.sectionOne a {
+	color: grey;
+	text-decoration: none;
 	font-size: 20px;
 }
 
-.section__block--text p {
-	margin-bottom: 10px;
-	font-size: 17px;
+.sectionOne a:hover {
+	color: #66cc66;
 }
 
-.section__block--text a {
-	text-decoration: none;
-	color: #808080;
+.sectionOne__div2 p {
+	margin-bottom: 10px;
 }
 
 .section__text--button {
@@ -92,6 +94,77 @@ header {
 	color: grey;
 	font-weight: bold;
 	background-color: transparent;
+}
+
+.sectionTwo {
+	width: 90%;
+	margin: 0 auto;
+	color: #878787;
+	margin-top: 30px;
+}
+
+.sectionTwo h2 {
+	font-size: 30px;
+	color: #878787;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.sectionTwo__div1 p {
+	color: #878787;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.form input {
+	margin: 10px 10px 10px 0;
+	border-radius: 3px;
+	border: 1px solid grey;
+	width: 100%;
+	color: #878787;
+	height: 30px;
+	font-size: 15px;
+}
+
+.form select {
+	width: 70px;
+	height: 25px;
+	border-radius: 3px;
+	border: 1px solid grey;
+	color: #878787;
+	background-color: transparent;
+}
+
+.form__text {
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 35px;
+}
+
+textarea {
+	width: 100%;
+	height: 100%;
+}
+
+.sectionTwo__flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.form__grid {
+	display: grid;
+	grid-template-columns: 30% 70%;
+
+}
+
+.form__grid div {
+	margin: auto 0;
 }
 
 footer {
@@ -132,11 +205,6 @@ footer {
 }
 
 
-	
-
-
-
-
 @media (min-width: 400px) {
 	.container {width: 100%; margin: 0 auto}
 }
@@ -144,8 +212,15 @@ footer {
 @media (min-width: 768px) {
 	header {flex-direction: row; justify-content: space-between; padding-left: 68px;}
 	.header__nav {width: 50%; flex-direction: row; justify-content: space-around; padding-right: 40px;}
-	.main {padding-top: 180px;}
-	.section__block {margin: 10px;}
+
+	.main {padding-top: 160px; margin-bottom: 50px;}
+	.main {display: grid; grid-template-columns: 70% 30%;}
+
+	.sectionOne__div1--margin {margin: 40px 0 20px 20px;}
+	.sectionOne__div1--flex {display: flex; flex-direction: row;}
+
+	.sectionTwo {margin-top: 0;}
+
 	footer {display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
 }
 
