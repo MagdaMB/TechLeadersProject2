@@ -87,7 +87,6 @@ header {
 	width: 90%;
 	border-top: 1px solid #dadada;
 	border-bottom: 1px solid #dadada;
-	border-spacing: 20px;
 }
 
 .table a {
@@ -99,8 +98,22 @@ header {
 	margin: 0 20px 0 5px;
 }
 
+.table1 {
+	border-bottom: 1px solid #dadada;
+	width: 100%;
+	border-spacing: 10px;
+}
 
+.table2 {
+	border-bottom: 1px solid #dadada;
+	width: 100%;
+	border-spacing: 10px;
+}
 
+.table3 {
+	width: 100%;
+	border-spacing: 10px;
+}
 .sectionTwo {
 	margin: 20px 10px 20px 15px;
 }
