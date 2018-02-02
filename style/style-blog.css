@@ -82,17 +82,24 @@ header {
 	max-width: 660px;
 }
 
-.table__grid a {
+.table {
+	color: grey;
+	width: 90%;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	border-spacing: 20px;
+}
+
+.table a {
 	color: grey;
 	text-decoration: none;
 }
 
-.flex {
-	display: flex;
-	flex-direction: row;
-	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
+.table img {
+	margin: 0 20px 0 5px;
 }
+
+
 
 .sectionTwo {
 	margin: 20px 10px 20px 15px;
