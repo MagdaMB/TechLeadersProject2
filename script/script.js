@@ -1,48 +1,33 @@
 document.addEventListener('DOMContentLoaded', function () {
-/*
-
-	var btn = document.getElementById("green");
-
-	btn.addEventListener('mouseover', function() {
-		btn.style.backgroundColor = "#66cc66";
-		btn.style.color = "#FFFFFF";
-	});
-
-	btn.addEventListener('mouseout', function() {
-		btn.style.backgroundColor = "transparent";
-		btn.style.color = "grey";
-	})
-	
-for (var i=0; i<btn.length; i++) {
+//podświetlane przyciski
 	var btn = document.querySelectorAll("button");
-	btn[i].addEventHandler('mouseover', function(e) {
-		var clickedBtn = e.target;
-		console.log(clickedBtn)
-	})
-}
 
-*/
+	for(var i=0; i<btn.length; i++) {
+		btn[i].addEventListener('mouseover', function(event) {
+			var x = event.target;
 
-	var x = document.querySelectorAll("button.section__text--button");
+			x.classList.add('green__button');
 
-	for(var i=0; i<x.length; i++) {
-		x[i].addEventListener('mouseover', function(event) {
-
-			var y = event.target;
-
-			y.style.backgroundColor = "#66cc66";
-			y.style.color = "#FFFFFF";
 		})
 
-		x[i].addEventListener('mouseout', function(event) {
+		btn[i].addEventListener('mouseout', function() {
+			var x = event.target;
 
-			var y = event.target;
-
-			y.style.backgroundColor = "transparent";
-			y.style.color = "grey";
+			x.classList.remove('green__button');
 		})
-
 	}
+
+//podświetlane napisy w menu - nav
+
+	var menu = document.querySelectorAll("nav.header__nav > div > a");
+
+	menu.addEventListener('click', function() {
+		for(var i=0; i<menu.length; i++) {
+			menu[i].style.color = "#66cc66";
+		}
+		
+	})
+		
 	
 
 

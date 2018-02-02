@@ -312,6 +312,17 @@ footer {
 	margin: 5px;
 }
 
+.green__button {
+	color: white;
+	background-color: #66cc66;
+}
+
+.green__menu--a {
+	color: #66cc66;
+}
+
+
+
 
 @media (min-width: 400px) {
 	.container {width: 100%; margin: 0 auto}
