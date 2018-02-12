@@ -321,7 +321,9 @@ footer {
 	color: #66cc66;
 }
 
-
+header a.active {
+	color: red !important;
+}
 
 
 @media (min-width: 400px) {

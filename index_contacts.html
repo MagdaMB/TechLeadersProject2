@@ -3,6 +3,7 @@
 <head>
 	<title>Contacts</title>
 	<link href="style/style-contact.css" type="text/css" rel="stylesheet">
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -75,15 +76,15 @@
 					<h2>Contact Form</h2>
 				</div>
 
-				<form>
+				<form id="myForm">
 					<input type="text" name="name" value="Name: ">
 					<input type="email" name="email" value="Email: ">
 					<input type="text" name="phone" value="Phone: "><br>
-					
+					<div id="info"></div>
 					<textarea name="message" rows="15" cols="150"></textarea><br>
 					<div class="sectionTwo__button--margin flex">
-						<button type="button" class="section__text--button">clear</button>
-						<button type="button" class="section__text--button">send</button>
+						<button type="button" class="section__text--button" id="clear">clear</button>
+						<button type="button" class="section__text--button" id="send">send</button>
 					</div>
 					
 				</form>
@@ -104,6 +105,9 @@
 				</div>
 			</footer>
 		</div>
+<script type="text/javascript" src="script/script-contacts.js">
+		
+</script>
 </body>
 </html>
 </body>

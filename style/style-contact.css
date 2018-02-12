@@ -190,8 +190,15 @@ footer {
 	margin: 5px;
 }
 
+.green__button {
+	color: white;
+	background-color: #66cc66;
+}
 
-
+#info {
+	color: red;
+	font-size: 15px;
+}
 
 @media (min-width: 400px) {
 	.container {width: 100%; margin: 0 auto}
