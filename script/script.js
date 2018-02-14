@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
 //podświetlane przyciski
 	var btn = document.querySelectorAll("button");
 
@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 
-});
+
+});*/
 
 
 	

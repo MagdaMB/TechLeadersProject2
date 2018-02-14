@@ -35,32 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			return false;
 		}
 
-
-
-
-
-
-
-
-
-		/*if(formName.value == "Name: ") {
-			return formName.value = "Name is empty";
-		} else {
-			return false;
-		}
-		
-		if(formEmail.value == "Email: ") {
-			return formEmail.value = "Email is empty";
-		} else {
-			return false;
-		}
-
-		if(formPhone.value == "Phone: ") {
-			return formPhone.value = "Phone is empty";
-		} else {/
-			dacdesass5
-			return false;
-		}*/
 	})
 
 
