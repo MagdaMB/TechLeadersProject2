@@ -2,7 +2,10 @@
 <html>
 <head>
 	<title>Italian Restaurant</title>
+	<link href="style/header.css" type="text/css" rel="stylesheet">
+	<link href="style/footer.css" type="text/css" rel="stylesheet">
 	<link href="style/style.css" type="text/css" rel="stylesheet">
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -18,11 +21,11 @@
 				</div>
 			
 				<nav class="header__nav">
-					<div><a href="index.html">home</a></div>
-					<div><a href="index_menu.html">menu</a></div>
-					<div><a href="index_reservation.html">reservation</a></div>
-					<div><a href="index_blog.html">blog</a></div>
-					<div><a href="index_contacts.html">contacts</a></div>
+					<div><a class="active" href="index.html">home</a></div>
+					<div><a id="two" href="index_menu.html">menu</a></div>
+					<div><a id="three" href="index_reservation.html">reservation</a></div>
+					<div><a id="four" href="index_blog.html">blog</a></div>
+					<div><a id="five" href="index_contacts.html">contacts</a></div>
 				</nav>
 			</header>
 
@@ -125,15 +128,26 @@
 
 						<div class="sectionFour__img">
 							<div class="sectionFour__img1">
-								<img src="images/page1_img4.jpg">
+								<div class="sectionFour__img--wrapper">
+									<img src="images/page1_img4.jpg">
+									<div class="overlay"><img src="images/magnify.png"></div>
+								</div>
 								<button type="button" class="sectionFour__button">+</button>
 							</div>
+
 							<div class="sectionFour__img1">
-								<img src="images/page1_img5.jpg">
+								<div class="sectionFour__img--wrapper">
+									<img src="images/page1_img5.jpg">
+									<div class="overlay"><img src="images/magnify.png"></div>
+								</div>
 								<button type="button" class="sectionFour__button">+</button>
 							</div>
+
 							<div class="sectionFour__img1">
-								<img src="images/page1_img6.jpg">
+								<div class="sectionFour__img--wrapper">
+									<img src="images/page1_img6.jpg">
+									<div class="overlay"><img src="images/magnify.png"></div>
+								</div>
 								<button type="button" class="sectionFour__button">+</button>
 							</div>
 						</div>
@@ -212,6 +226,8 @@
 	</div>
 
 
-<script type="text/javascript" src="script/script.js"></script>
+<script type="text/javascript" src="script/script4.js">
+	
+</script>
 </body>
 </html>

@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Contacts</title>
+	<link href="style/footer.css" type="text/css" rel="stylesheet">
+	<link href="style/header.css" type="text/css" rel="stylesheet">
 	<link href="style/style-contact.css" type="text/css" rel="stylesheet">
 	
 	<meta charset="utf-8">
@@ -32,7 +34,7 @@
 					<div><a href="index_menu.html">menu</a></div>
 					<div><a href="index_reservation.html">reservation</a></div>
 					<div><a href="index_blog.html">blog</a></div>
-					<div><a href="index_contacts.html">contacts</a></div>
+					<div><a class="active" href="index_contacts.html">contacts</a></div>
 				</nav>
 			</header>
 
@@ -77,14 +79,13 @@
 				</div>
 
 				<form id="myForm">
-					<input type="text" name="name" value="Name: ">
-					<input type="email" name="email" value="Email: ">
-					<input type="text" name="phone" value="Phone: "><br>
-					<div id="info"></div>
+					<input type="text" name="name" placeholder="Name: " required>
+					<input type="email" name="email" placeholder="Email: " required>
+					<input type="text" name="phone" placeholder="Phone: " required><br>
 					<textarea name="message" rows="15" cols="150"></textarea><br>
 					<div class="sectionTwo__button--margin flex">
-						<button type="button" class="section__text--button" id="clear">clear</button>
-						<button type="button" class="section__text--button" id="send">send</button>
+						<button type="reset" class="section__text--button" id="clear">clear</button>
+						<button type="submit" class="section__text--button" id="send">send</button>
 					</div>
 					
 				</form>

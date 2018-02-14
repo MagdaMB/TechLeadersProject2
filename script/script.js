@@ -17,27 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 	}
 
-//podświetlane napisy w menu - nav
-
-	var menuClick = document.querySelectorAll("nav.header__nav > div > a");
-	console.log(menuClick)
-
-	for(var i=0; i<menuClick.length; i++) {
-
-		menuClick[i].addEventListener('click', function(event) {
-		
-		var y = event.target;
-			
-		
-		
-		
-	})
-
-	}
-	
-		
-	
-
 
 });
 
